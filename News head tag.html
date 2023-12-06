@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Home Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div>
-        <h1>W.</h1>
-        <nav id="navigation-tab">
-            <ul id="unordered-list">
-                <li class="list">Home</li>
-                <li class="list">New</li>
-                <li class="list">Popular</li>
-                <li class="list">Trending</li>
-                <li class="list">Categories</li>
-            </ul>
-        </nav>
-    </div>
-    <div id="whole-document">
-        <div id="top-section"></div>
-            <img id="image1" src="image-web-3-desktop.jpg">
-            <div id="top-right-section"></div>
-                <div>
+    <div id="main-div">
+        <div id="header">
+            <h1 id="title">W.</h1>
+            <nav id="navigation-tab">
+                <ul id="unordered-list">
+                    <li class="list">Home</li>
+                    <li class="list">New</li>
+                    <li class="list">Popular</li>
+                    <li class="list">Trending</li>
+                    <li class="list">Categories</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="top-section">
+            <div id="top-left-section">
+                <img id="image1" src="image-web-3-desktop.jpg">
+                <p>The Bright Future of Web 3.0?</p>
+                <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                    But is it really fulfilling its promise?</p>
+                <button>Read more</button>
+            </div>
+            <div id="top-right-section">
                     <h1>New</h1>
                     <h4>New Hydrogen VS Electric Cars</h4>
                     <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
@@ -31,32 +43,38 @@
                     <p>What are the possible adverse effects of on-demand AI image generation?</p>
                     <h4>Is VC Funding Drying Up?</h4>
                     <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+        </div>
+        <div id="bottom-section">
+            <div id="bottom-left-section">
+                <div id="gen1">
+                    <img id="img1" src="image-retro-pcs.jpg">
+                    <div id="left-section">
+                        <h2>01</h2>
+                        <h4>Reviving Retro PCs</h4>
+                        <p>What happens when old PCs are given modern upgrades?</p>
+                    </div>
                 </div>
-            <div id="top-left-section">
-                <p>The Bright Future of Web 3.0?</p>
-                <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-                    But is it really fulfilling its promise?</p>
-                <button>Read more</button>
+            </div><div id="bottom-center-section">
+                <div id="gen2">
+                    <img id="img2" src="image-top-laptops.jpg">
+                    <div id="center-section">
+                        <h2>02</h2>
+                        <h4>Top 10 Laptops of 2022</h4>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+            </div><div id="bottom-right-section">
+                <div id="gen3">
+                    <img id="img3" src="image-gaming-growth.jpg">
+                    <div id="right-section">
+                        <h2>03</h2>
+                        <h4>The Growth of Gaming</h4>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
             </div>
-        <div id="bottom-section"></div>
-            <div>
-                <img src="image-retro-pcs.jpg">
-                <h2>01</h2>
-                <h4>Reviving Retro PCs</h4>
-                <p>What happens when old PCs are given modern upgrades?</p>
-            </div>
-            <div>
-                <img src="image-top-laptops.jpg">
-                <h2>02</h2>
-                <h4>Top 10 Laptops of 2022</h4>
-                <p>Our best picks for various needs and budgets.</p>
-            </div>
-            <div>
-                <img src="image-gaming-growth.jpg">
-                <h2>03</h2>
-                <h4>The Growth of Gaming</h4>
-                <p>How the pandemic has sparked fresh opportunities.</p>
-            </div>
+        </div>
     </div>
 </body>
 </html>
